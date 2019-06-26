@@ -26,9 +26,9 @@ def using_concat(array,array2)
   array.concat array2
 end
 
-def using_insert(array,element)
-  array.insert(3, "Python")
-end
+#def using_insert(array,element)
+  #array.insert(3, "Python")
+#end
 
 def using_uniq(array)
   array.uniq
@@ -36,4 +36,8 @@ end
 
 def using_flatten(array)
   array.flatten
+end
+
+def using_delete_at(array,1)
+  array.delete(1)
 end
