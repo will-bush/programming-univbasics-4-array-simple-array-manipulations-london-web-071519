@@ -38,6 +38,6 @@ def using_flatten(array)
   array.flatten
 end
 
-def using_delete(array, integer = 1)
+def using_delete(array, "string")
   array.delete(1)
 end
