@@ -27,6 +27,6 @@ end
 #end
 
 def using_insert(array,element)
-  array.insert string(4)
+  array.insert element(4)
 end
 
